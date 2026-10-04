@@ -15,16 +15,34 @@
   <script>
     const el = document.getElementById("cv");
     let last = null;
+    let phoneLine = "";
+
+    // ?phone=... wins over phone.local. phone.local is gitignored, so the number never reaches the public repo or Pages (404 there, line hidden)
+    async function loadPhone() {
+      try {
+        let phone = new URLSearchParams(location.search).get("phone");
+        if (!phone) {
+          const res = await fetch("phone.local", { cache: "no-store" });
+          if (!res.ok) return;
+          phone = await res.text();
+        }
+        phone = phone.trim();
+        // marked passes raw HTML through, so reject anything that is not phone-shaped
+        if (!/^[+()\d\s.-]{6,25}$/.test(phone)) return;
+        const tel = "+" + phone.replace(/\D/g, "");
+        phoneLine = `![Phone](assets/icons/phone.svg) [${phone}](tel:${tel})\\\n`;
+      } catch {}
+    }
 
     async function render() {
       const res = await fetch("nhdphuong-cv.md", { cache: "no-store" });
       const text = await res.text();
       if (text === last) return;
       last = text;
-      el.innerHTML = marked.parse(text);
+      el.innerHTML = marked.parse(text.replace("![Email]", () => phoneLine + "![Email]"));
     }
 
-    render();
+    loadPhone().then(render);
     // live preview: re-fetch nhdphuong-cv.md so edits show up without a manual reload
     setInterval(render, 1000);
   </script>
