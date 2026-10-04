@@ -6,20 +6,18 @@
 
 ### Senior QA Engineer @ what3words – 09/2026 - Present
 
-- Run the API test suite fully parallel on 3 CI workers, using per-worker test accounts and secrets loaded from `.env`, with enforced naming and lint rules.
+- Improved the test design so the API test suite can run fully in parallel, using per-worker test accounts and secrets loaded from .env.
+- Improved code quality with enforced naming and lint rules.
 - Moved test execution to GitHub Actions with DevOps: label-driven PR runs, changed-tests-only runs, per-environment runs, and daily runs reported to Slack.
-- Add AI chat API tests, such as document upload and SSE streaming, to the regression suite.
-- Lead regression testing for infrastructure upgrades and new endpoints before release.
+- Led regression testing for infrastructure upgrades, service migrations, and new endpoints across staging, preprod, and production.
 - Proposed centralized test reporting to give the team historical and trend data.
 
 ### Automation Engineer @ what3words – 01/2026 - 09/2026
 
 - Owned the backend API regression suite (accounts, billing, saved locations, gateway, notifications, and the AI chat and voice APIs), adding tests alongside each feature ticket.
 - Migrated the suite from Mocha to Playwright and TypeScript.
-- Built AI chat API tests covering voice chat in multiple languages, text chat, and credit calculation, with a tool to generate voice fixtures.
-- Led regression testing for infrastructure upgrades and service migrations across staging, preprod, and production.
+- Built AI chat API tests covering voice chat in multiple languages, text chat, document upload, SSE streaming, and credit calculation, with a tool to generate voice fixtures.
 - Developed and ran performance and load tests with Gatling to measure response times and stability under load.
-- Reported defects with clear reproduction steps and tracked them to closure.
 
 ### Software Engineer @ KMS Technology Vietnam – 01/2022 - 03/2023
 
@@ -37,31 +35,23 @@
   - Built the test system and automated bringing up environments.
   - Developed daily automation tests for web with Selenium WebDriver and for iOS/Android with Appium.
   - Contributed to core framework functions and helped members understand the framework.
-  - Performed manual testing when needed to verify new functions.
 - Automation tester on a storage system product:
   - Developed automation tests that interact deeply with the Linux file system and Samba connections.
   - Built a Postman suite for API regression tests.
   - Automated bringing up the system under test in different configurations.
-  - Debugged and helped resolve test environment problems for the team.
 
 ### Test Engineer @ KMS Technology Vietnam – 11/2018 - 10/2019
 
-- Executed tests and developed and reviewed test cases for a healthcare product on web, iOS, and Android.
-- Worked independently in a cross-functional team.
+- Executed tests and developed and reviewed test cases for a healthcare product on web, iOS, and Android, working independently in a cross-functional team.
 - Built a Postman suite for API test automation.
 - Introduced simple automated regression tests to a project that had none.
 
 ### QA Engineer @ TMA Solutions – 05/2016 - 05/2018
 
-- Tested a telecom product manually on Windows, macOS, iOS, and Android:
-  - Configured the server side to set up the testing environment.
-  - Developed detailed test plans and test cases.
-  - Analyzed root causes of issues with developers.
-- Managed a team of five in manual testing for five months:
-  - Communicated directly with customers and developers in India, Russia, and Canada.
-  - Reviewed test plans, estimated test activities, and trained new members.
-  - Improved the testing and reporting process.
-- Wrote automation tests in C# for simple test cases for two months.
+- Tested a telecom product manually on Windows, macOS, iOS, and Android, and analyzed root causes of issues with developers.
+- Developed detailed test plans and test cases and configured the server side to set up the testing environment.
+- Managed a team of five in manual testing for five months, working directly with customers and developers in India, Russia, and Canada, and improving the testing and reporting process.
+- Wrote simple automation tests in C# for two months.
 
 ## Skills & Abilities
 
@@ -82,17 +72,14 @@
 
 ### English
 
-- Excellent at reading and listening (TOEIC 780).
-- Good at communicating in spoken and written English.
+- Excellent at reading and listening (TOEIC 780); good at spoken and written English.
 - Self-motivated learner using English materials.
 
 ### Communication
 
-- Good communication and interpersonal skills.
-- Willing to assist other team members.
-- Very good attention to detail.
+- Good communication and interpersonal skills, with very good attention to detail.
 - Quickly adapt to new environments.
-- Honest and reliable.
+- Honest and reliable, always ready to support teammates.
 
 ## Education
 
