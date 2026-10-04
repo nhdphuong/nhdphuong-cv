@@ -17,7 +17,7 @@
     let last = null;
 
     async function render() {
-      const res = await fetch("CV.md", { cache: "no-store" });
+      const res = await fetch("nhdphuong-cv.md", { cache: "no-store" });
       const text = await res.text();
       if (text === last) return;
       last = text;
@@ -25,7 +25,7 @@
     }
 
     render();
-    // live preview: re-fetch CV.md so edits show up without a manual reload
+    // live preview: re-fetch nhdphuong-cv.md so edits show up without a manual reload
     setInterval(render, 1000);
   </script>
 </body>
