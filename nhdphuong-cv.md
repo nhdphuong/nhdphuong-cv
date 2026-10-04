@@ -1,6 +1,6 @@
 # Nguyễn Hà Duy Phương
 
-📨 <mailto:nhdphuong93@gmail.com>
+📨 <nhdphuong93@gmail.com>
 
 ## Work Experience
 
