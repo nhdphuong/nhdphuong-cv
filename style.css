@@ -132,6 +132,13 @@ li > ul {
   padding-left: 8px;
 }
 
+/* icons/*.svg are Feather icons (MIT) */
+h1 + p img {
+  height: 1.05em;
+  width: 1.05em;
+  vertical-align: -0.24em;
+}
+
 @media (max-width: 640px) {
   body.web,
   body.vscode-body {
