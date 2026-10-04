@@ -1,8 +1,9 @@
 # Nguyễn Hà Duy Phương
 
-![Email](assets/icons/mail.svg) [nhdphuong93@gmail.com](mailto:nhdphuong93@gmail.com) | ![LinkedIn](assets/icons/linkedin.svg) [linkedin.com/in/nhdphuongw](https://www.linkedin.com/in/nhdphuongw)
+![Email](assets/icons/mail.svg) [nhdphuong1510@gmail.com](mailto:nhdphuong1510@gmail.com)\
+![LinkedIn](assets/icons/linkedin.svg) [linkedin.com/in/nhdphuongw](https://www.linkedin.com/in/nhdphuongw)
 
-## Work Experience
+## ![Work Experience](assets/icons/briefcase.svg) Work Experience
 
 ### Senior QA Engineer @ what3words – 09/2026 - Present
 
@@ -53,7 +54,7 @@
 - Managed a team of five in manual testing for five months, working directly with customers and developers in India, Russia, and Canada, and improving the testing and reporting process.
 - Wrote simple automation tests in C# for two months.
 
-## Skills & Abilities
+## ![Skills](assets/icons/tool.svg) Skills & Abilities
 
 ### Technical Skills
 
@@ -81,7 +82,7 @@
 - Quickly adapt to new environments.
 - Honest and reliable, always ready to support teammates.
 
-## Education
+## ![Education](assets/icons/book-open.svg) Education
 
 ### 2012 - 2016 | Bachelor's Degree | VNU HCM – University of Science
 
@@ -89,7 +90,7 @@
 - Minor: Computer Vision & Robotics.
 - GPA: 7.11.
 
-## Interests
+## ![Interests](assets/icons/heart.svg) Interests
 
 - Street and landscape photography, especially night landscapes. I love keeping the memories of the people around me in a photograph.
 - Drinking coffee, tea, and dessert.

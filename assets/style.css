@@ -68,10 +68,12 @@ body.web {
   max-width: 794px;
   margin: 0 auto;
   padding: 40px 60px;
+  container-type: inline-size;
 }
 
 h1, h2, h3 {
   font-family: inherit;
+  line-height: 1.25;
   border: 0;
   margin: 0;
   padding: 0;
@@ -96,6 +98,17 @@ h2 {
   font-size: 18px;
   font-weight: 700;
   margin: 16px 0 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* the icon is centred on the cap height, but lowercase dominates the heading, so nudge it down to sit on the x-height centre */
+h2 img {
+  height: 1em;
+  width: 1em;
+  position: relative;
+  top: 0.06em;
 }
 
 h3 {
@@ -132,7 +145,7 @@ li > ul {
   padding-left: 8px;
 }
 
-/* phone.svg and mail.svg are Feather icons (MIT); linkedin.svg is a hand-drawn "in" mark in the same stroke style */
+/* Feather icons (MIT), except linkedin.svg: a hand-drawn "in" mark in the same stroke style */
 h1 + p img {
   height: 1.05em;
   width: 1.05em;
@@ -158,4 +171,18 @@ h1 + p img {
   h2, h3 { break-after: avoid; }
 
   li:has(> ul) { break-inside: avoid; }
+}
+
+/* contact items are separated by hard line breaks (one per line); when the
+   row fits the container, hide the breaks and draw "|" separators instead */
+@container (min-width: 590px) {
+  h1 + p br {
+    display: none;
+  }
+
+  h1 + p a:not(:last-child)::after {
+    content: "|";
+    margin: 0 4px 0 5px;
+    color: #111;
+  }
 }
