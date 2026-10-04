@@ -1,6 +1,6 @@
 # Nguyễn Hà Duy Phương
 
-![Email](icons/mail.svg) [nhdphuong93@gmail.com](mailto:nhdphuong93@gmail.com)
+![Email](assets/icons/mail.svg) [nhdphuong93@gmail.com](mailto:nhdphuong93@gmail.com)
 
 ## Work Experience
 
