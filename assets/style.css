@@ -132,7 +132,7 @@ li > ul {
   padding-left: 8px;
 }
 
-/* icons/*.svg are Feather icons (MIT) */
+/* phone.svg and mail.svg are Feather icons (MIT); linkedin.svg is a hand-drawn "in" mark in the same stroke style */
 h1 + p img {
   height: 1.05em;
   width: 1.05em;
