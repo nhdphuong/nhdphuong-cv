@@ -11,7 +11,8 @@
 - Improved code quality with enforced naming and lint rules.
 - Moved test execution to GitHub Actions with DevOps: label-driven PR runs, changed-tests-only runs, per-environment runs, and daily runs reported to Slack.
 - Led regression testing for infrastructure upgrades, service migrations, and new endpoints across staging, preprod, and production.
-- Proposed centralized test reporting to give the team historical and trend data.
+- Made the AI chat tests more reliable: an LLM judge scores each reply against set criteria and cites evidence.
+- Built an agent harness that takes a ticket through to tests and a PR, and added self-cleaning user fixtures and a shared API error catalog to cut leftover test data and duplicated asserts.
 
 ### Automation Engineer @ what3words – 01/2026 - 09/2026
 
