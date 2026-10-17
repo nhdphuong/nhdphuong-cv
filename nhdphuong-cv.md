@@ -7,19 +7,22 @@
 
 ### Senior QA Engineer @ what3words – 09/2026 - Present
 
-- Improved the test design so the API test suite can run fully in parallel,
-  using per-worker test accounts and secrets loaded from .env.
-- Improved code quality with enforced naming and lint rules.
+- Built an agent harness that takes a ticket through to tests and a draft PR:
+  understand, probe the live API, plan with HTSM, review, write, run, report.
+- Added gate modes for human review, hard stops (production, a red smoke run, a
+  missing secret), and a run ledger to resume.
+- Added self-cleaning user fixtures and a shared API error catalog to cut
+  leftover test data and duplicated assertions.
+- Made the AI chat tests more reliable: an LLM judge scores each reply against
+  set criteria and cites evidence.
 - Moved test execution to GitHub Actions with DevOps: label-driven PR runs,
   changed-tests-only runs, per-environment runs, and daily runs reported to
   Slack.
 - Led regression testing for infrastructure upgrades, service migrations, and
   new endpoints across staging, preprod, and production.
-- Made the AI chat tests more reliable: an LLM judge scores each reply against
-  set criteria and cites evidence.
-- Built an agent harness that takes a ticket through to tests and a PR, and
-  added self-cleaning user fixtures and a shared API error catalog to cut
-  leftover test data and duplicated asserts.
+- Improved the test design so the API test suite can run fully in parallel,
+  using per-worker test accounts and secrets loaded from .env.
+- Improved code quality with enforced naming and lint rules.
 
 ### Automation Engineer @ what3words – 01/2026 - 09/2026
 
@@ -35,49 +38,41 @@
 
 ### Software Engineer @ KMS Technology Vietnam – 01/2022 - 03/2023
 
-- Backend developer for a storage system product:
-  - Exposed Linux system functions via REST API with FastAPI for a new web
-    management UI.
-  - Developed a function to collect logs, check the network and system health,
-    and report via email.
-  - Developed core functions required by automation tests that interact with the
-    file system.
-- Backend developer for a card payment product:
-  - Exposed legacy functions as a Falcon microservice to make, approve, and
-    check payments.
-  - Developed a daily payment status report sent via email.
+- Backend developer for a storage system product: exposed Linux system functions
+  via a FastAPI REST API for a new web management UI, built a function that
+  collects logs, checks network and system health, and reports via email, and
+  developed core file-system functions for automation tests.
+- Backend developer for a card payment product: exposed legacy functions as a
+  Falcon microservice to make, approve, and check payments, with a daily payment
+  status report sent via email.
 
 ### Senior Test Engineer @ KMS Technology Vietnam – 11/2019 - 12/2021
 
-- Automation tester on an eLearning product:
-  - Built the test system and automated bringing up environments.
-  - Developed daily automation tests for web with Selenium WebDriver and for
-    iOS/Android with Appium.
-  - Contributed to core framework functions and helped members understand the
-    framework.
-- Automation tester on a storage system product:
-  - Developed automation tests that interact deeply with the Linux file system
-    and Samba connections.
-  - Built a Postman suite for API regression tests.
-  - Automated bringing up the system under test in different configurations.
+- Automation tester on an eLearning product: built the test system and automated
+  bringing up environments, wrote daily automated tests for web with Selenium
+  WebDriver and for iOS/Android with Appium, contributed to core framework
+  functions, and helped members understand the framework.
+- Automation tester on a storage system product: wrote automation tests that
+  interact deeply with the Linux file system and Samba, built a Postman suite
+  for API regression tests, and automated bringing up the system under test in
+  different configurations.
 
 ### Test Engineer @ KMS Technology Vietnam – 11/2018 - 10/2019
 
 - Executed tests and developed and reviewed test cases for a healthcare product
   on web, iOS, and Android, working independently in a cross-functional team.
-- Built a Postman suite for API test automation.
-- Introduced simple automated regression tests to a project that had none.
+- Built a Postman suite for API test automation and introduced simple automated
+  regression tests to a project that had none.
 
 ### QA Engineer @ TMA Solutions – 05/2016 - 05/2018
 
-- Tested a telecom product manually on Windows, macOS, iOS, and Android, and
-  analyzed root causes of issues with developers.
+- Tested a telecom product manually on Windows, macOS, iOS, and Android,
+  analyzed root causes with developers, and wrote simple C# automation tests.
 - Developed detailed test plans and test cases and configured the server side to
   set up the testing environment.
 - Managed a team of five in manual testing for five months, working directly
   with customers and developers in India, Russia, and Canada, and improving the
   testing and reporting process.
-- Wrote simple automation tests in C# for two months.
 
 ## ![Skills](assets/icons/tool.svg) Skills & Abilities
 
